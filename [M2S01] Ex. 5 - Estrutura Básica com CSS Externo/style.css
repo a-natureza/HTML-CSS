@@ -1,0 +1,60 @@
+ /* Estilização do cabeçalho h1 */
+ h1, h2 {
+    background-color: orange; /* Cor de fundo laranja para h1 e roxo para h2 */
+    font-size: 22px; /* Tamanho da fonte aumentado */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização do cabeçalho h2 */
+h2 {
+    background-color: purple; /* Cor de fundo roxo */
+}
+
+/* Estilização dos parágrafos */
+p {
+    color: #333; /* Cor do texto cinza escuro */
+    font-size: 18px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização do link */
+a {
+    color: #0066cc; /* Cor do texto do link */
+    font-size: 44px; /* Tamanho da fonte aumentado */
+    text-decoration: none; /* Remove sublinhado */
+    display: block; /* Transforma em bloco para permitir centralização */
+    text-align: center; /* Centraliza o texto do link */
+    margin: 20px 0; /* Margem para separar visualmente dos outros elementos */
+}
+/* Estilizaçaõ da imagem */
+.imagem-responsiva {
+    display: block; /* Torna a imagem um bloco */
+    margin: 0 auto; /* Margem automática em ambos os lados */
+    width: 100%; /* Largura máxima de 100% para responsividade */
+    height: auto; /* mantém a proporção da imagem */
+}
+/* Estilizaçaõ do footer */
+footer {
+    background-color: orange; 
+    color: black; 
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento interno vertical */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Media Queries para ajustes em diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1rem; /* Tamanho de fonte menor para telas pequenas */
+    }
+
+    p, a {
+        font-size: 0.875rem; /* Tamanho de fonte menor para parágrafos e links em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.875rem; /* Reduzindo o tamanho da fonte no footer para telas menores */
+    }
+}
